@@ -67,8 +67,9 @@ public class MainaderiaList implements Mainaderia {
     	int quants = 0;
     	Iterator it = contingut.iterator();
     	
+    	Criatura c;
     	while(it.hasNext()) {
-    		Criatura c = (Criatura) it.next();
+    		c = (Criatura) it.next();
     		if(c.getSexe() == sexe) quants++;
     	}
     	
